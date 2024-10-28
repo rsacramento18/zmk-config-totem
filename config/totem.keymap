@@ -131,7 +131,7 @@
             bindings = <
         &kp ESCAPE  &bt BT_CLR  &kp UP    &kp EQUAL     &kp RA(NUMBER_7)    &kp RA(NUMBER_8)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
         &kp TAB     &kp LEFT    &kp DOWN  &kp LEFT_ALT  &kp RA(NUMBER_8)    &kp RA(NUMBER_9)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&trans  &kp DEL     &kp PG_UP   &kp CAPS  &kp PG_DN     &kp LS(NUMBER_8)    &kp LS(NUMBER_9)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp KP_MULTIPLY  &trans
+&trans  &kp DEL     &kp PG_UP   &kp CAPS  &kp PG_DN     &kp LS(NUMBER_8)    &kp LS(NUMBER_9)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp KP_MULTIPLY
                                 &trans    &trans        &trans              &mo ADJ           &kp KP_N0     &trans
             >;
         };
