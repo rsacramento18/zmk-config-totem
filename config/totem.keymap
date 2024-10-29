@@ -122,9 +122,9 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp LBRC          &kp RA(NUMBER_8)  &kp RA(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_6)    &kp LS(NUMBER_0)  &kp LS(NUMBER_9)  &kp RA(LS(NUMBER_0))  &kp RA(NUMBER_9)  &kp LS(KP_PLUS)
-        &kp LS(NUMBER_1)  &kp F1            &kp F2            &kp F3            &kp F4              &kp F6            &kp F7            &kp F8                &kp F9            &kp MINUS
-&trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(E)         &trans            &kp F5              &kp F10           &kp F11           &kp F12               &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &trans
+        &kp LBRC          &kp RA(NUMBER_8)  &kp RA(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_6)    &kp LS(NUMBER_0)  &kp LS(NUMBER_9)  &kp RA(NUMBER_0)  &kp RA(NUMBER_9)  &kp LS(KP_PLUS)
+        &kp LS(NUMBER_1)  &kp F1            &kp F2            &kp F3            &kp F4              &kp F6            &kp F7            &kp F8            &kp F9            &kp MINUS
+&trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(E)         &trans            &kp F5              &kp F10           &kp F11           &kp F12           &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &trans
                                             &trans            &gif              &trans              &trans            &trans            &trans
             >;
         };
