@@ -33,7 +33,7 @@
         compatible = "zmk,combos";
 
         Symbols {
-            bindings = <&mo 2>;
+            bindings = <&mo 3>;
             key-positions = <34 35>;
         };
     };
