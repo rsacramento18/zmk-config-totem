@@ -137,7 +137,7 @@
         game {
             bindings = <
            &kp Q  &kp W  &kp E         &kp R             &kp T        &trans  &trans  &trans  &trans  &to 0
-           &kp A  &kp S  &kp D         &kp F             &tog 4       &trans  &trans  &trans  &trans  &trans
+           &kp A  &kp S  &kp D         &kp F             &sl 4        &trans  &trans  &trans  &trans  &trans
 &kp LSHFT  &kp Z  &kp X  &kp C         &kp V             &kp B        &trans  &trans  &trans  &trans  &trans  &trans
                          &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE    &trans  &trans  &trans
             >;
