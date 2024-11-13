@@ -101,10 +101,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8     &kp NUMBER_9      &kp NUMBER_0
-         &kp LCTRL     &kp HOME      &kp PAGE_DOWN  &kp PG_UP     &kp END         &kp LEFT          &kp DOWN           &kp UP_ARROW     &kp RIGHT         &kp LCTRL
-&kp ESC  &kp BSLH      &kp NUBS      &kp TAB        &kp LEFT_ALT  &kp DELETE      &trans            &kp LALT           &trans           &kp LS(NUMBER_7)  &kp LS(NUMBER_5)  &trans
-                                     &to 3          &trans        &trans          &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8     &kp NUMBER_9      &kp NUMBER_0
+        &kp LCTRL     &kp HOME      &kp PAGE_DOWN  &kp PG_UP     &kp END         &kp LEFT          &kp DOWN           &kp UP_ARROW     &kp RIGHT         &kp LCTRL
+&trans  &kp BSLH      &kp NUBS      &kp TAB        &kp LEFT_ALT  &kp DELETE      &trans            &kp LALT           &trans           &kp LS(NUMBER_7)  &kp LS(NUMBER_5)  &trans
+                                    &to 3          &trans        &kp ESCAPE      &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
             >;
         };
 
