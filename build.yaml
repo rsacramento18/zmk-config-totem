@@ -1,9 +1,9 @@
 include:
-  - board: seeeduino_ble
+  - board: xiao_ble
     shield: totem_left
     snippet: zmk-usb-logging
-  - board: seeeduino_ble
+  - board: xiao_ble
     shield: totem_right
     snippet: zmk-usb-logging
-  - board: seeeduino_ble
+  - board: xiao_ble
     shield: settings_reset
