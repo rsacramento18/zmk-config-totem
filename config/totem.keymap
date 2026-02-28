@@ -102,10 +102,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8     &kp NUMBER_9      &kp NUMBER_0
-        &kp LCTRL     &kp HOME      &kp PAGE_DOWN  &kp PG_UP     &kp END         &kp LEFT          &kp DOWN           &kp UP_ARROW     &kp RIGHT         &kp LCTRL
-&trans  &kp BSLH      &kp NUBS      &kp TAB        &kp LEFT_ALT  &kp DELETE      &trans            &kp LALT           &trans           &kp LS(NUMBER_7)  &kp LS(NUMBER_5)  &trans
-                                    &to 3          &trans        &kp ESCAPE      &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+        &kp NUMBER_1  &kp NUMBER_2       &kp NUMBER_3            &kp NUMBER_4              &kp NUMBER_5    &kp NUMBER_6      &kp NUMBER_7                 &kp NUMBER_8           &kp NUMBER_9        &kp NUMBER_0
+        &kp TAB       &mt LEFT_GUI HOME  &mt LEFT_ALT PAGE_DOWN  &mt LEFT_CONTROL PAGE_UP  &kp END         &kp LEFT          &mt LEFT_CONTROL DOWN_ARROW  &mt LEFT_ALT UP_ARROW  &mt LEFT_GUI RIGHT  &kp LCTRL
+&trans  &kp BSLH      &kp NUBS           &kp TAB                 &kp LEFT_ALT              &kp DELETE      &trans            &kp LALT                     &trans                 &kp LS(NUMBER_7)    &kp LS(NUMBER_5)  &trans
+                                         &to 3                   &trans                    &kp ESCAPE      &kp C_PLAY_PAUSE  &kp C_VOLUME_DOWN            &kp C_VOLUME_UP
             >;
         };
 
@@ -128,10 +128,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp LS(KP_PLUS)   &kp RA(NUMBER_8)  &kp RA(NUMBER_7)  &kp LS(NUMBER_8)  &kp LS(NUMBER_6)    &kp LS(NUMBER_0)  &kp LS(NUMBER_9)  &kp RA(NUMBER_0)  &kp RA(NUMBER_9)  &kp LEFT_BRACE
-        &kp LS(NUMBER_1)  &kp F1            &kp F2            &kp F3            &kp F4              &kp F6            &kp F7            &kp F8            &kp F9            &kp MINUS
-&trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(E)         &kp LS(NUMBER_4)  &kp F5              &kp F10           &kp F11           &kp F12           &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &trans
-                                            &trans            &trans            &kp ESC             &trans            &trans            &trans
+        &kp LS(KP_PLUS)   &kp RA(NUMBER_8)  &kp RA(NUMBER_7)  &kp LS(NUMBER_8)     &kp LS(NUMBER_6)    &kp LS(NUMBER_0)  &kp LS(NUMBER_9)     &kp RA(NUMBER_0)  &kp RA(NUMBER_9)  &kp LEFT_BRACE
+        &kp LS(NUMBER_1)  &mt LEFT_GUI F1   &mt LEFT_ALT F2   &mt LEFT_CONTROL F3  &kp F4              &kp F6            &mt LEFT_CONTROL F7  &mt LEFT_ALT F8   &mt LEFT_GUI F9   &kp MINUS
+&trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(E)         &kp LS(NUMBER_4)     &kp F5              &kp F10           &kp F11              &kp F12           &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &trans
+                                            &trans            &trans               &kp ESC             &trans            &trans               &trans
             >;
         };
 
